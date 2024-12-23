@@ -1,13 +1,13 @@
 # Basic instructions
 ## To run the app:
-1. in the root folder of the project run:
+* in the root folder of the project run:
    ```
     docker build -t flask-library-app .
     docker run -p 5000:5000 flask-library-app
     ```
 
 OR
-2. in the root folder of the project run:
+* in the root folder of the project run:
    ```
     rm -rf venv
     python3 -m venv venv
